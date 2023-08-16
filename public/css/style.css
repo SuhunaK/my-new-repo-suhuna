@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+}
+/* header */
+header .navbar .navbar-brand img{width:50px;height: 50px;}
+header .navbar .navbar-brand p{font-size: 14px;}
+header .navbar .navbar-brand h6{font-size: 28px;}
+
+/* hero banner */
+.hero-banner{background-image: url('https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg?auto=compress&cs=tinysrgb&w=600');background-repeat: no-repeat;width: 100%;height: 400px;background-position: center;background-size: cover;position: relative;}
+.hero-banner .overlay{position: absolute;width: 100%;height: 100%;top:0;left:0;background-color: #000;opacity: 0.5;}
+.hero-banner h1{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    color: #ffff;
+    font-size: 64px;}
+    @media (max-width:576px){
+        .hero-banner h1{font-size: 40px;left:10%}
+    }
+/* implements */
+.implements h2{font-weight: 600;}
+.implements h6{margin-bottom: 15px;text-align: left !important;}
+.btn-agro{
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 50px;
+    background: #71c802;
+    border: 1px solid #71c802;
+    color: #fff;
+    margin-top: 20px !important;
+    border-radius: 25px;
+    width: 100px;
+    
+}
+
+/* implements-section */
+.implements-section{padding: 70px 0;}
+.implements-section img{height: 215px;}
+.implements-section .card{border: none;}
+.implements-section .card-footer{background: none;border-top:none;padding:20px}
+.implements-section h3{font-weight: 600;font-size: 24px;}
+
+/* details */
+.details{padding: 70px 0}
+.details img{width: 100%;}
+.details h5{color:#71c802;font-weight: 600;}
