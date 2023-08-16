@@ -1,8 +1,8 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 body{
-    font-family:sans-serif;
+font-family:sans-serif;
 }
 /* header */
 header .navbar .navbar-brand img{width:50px;height: 50px;}
@@ -13,30 +13,70 @@ header .navbar .navbar-brand h6{font-size: 28px;}
 .hero-banner{background-image: url('https://images.pexels.com/photos/2889440/pexels-photo-2889440.jpeg?auto=compress&cs=tinysrgb&w=600');background-repeat: no-repeat;width: 100%;height: 400px;background-position: center;background-size: cover;position: relative;}
 .hero-banner .overlay{position: absolute;width: 100%;height: 100%;top:0;left:0;background-color: #000;opacity: 0.5;}
 .hero-banner h1{
-    position: absolute;
-    top: 35%;
-    left: 28%;
-    color: #ffff;
-    font-size: 64px;}
-    @media (max-width:576px){
-        .hero-banner h1{font-size: 40px;left:10%}
-    }
+position: absolute;
+top: 35%;
+left: 28%;
+color: #ffff;
+font-size: 64px;}
+
+@media (max-width:576px){
+    .hero-banner h1{font-size: 40px;left:10%}
+}
 /* implements */
 .implements h2{font-weight: 600;}
 .implements h6{margin-bottom: 15px;text-align: left !important;}
 .btn-agro{
-    padding: 10px 20px;
-    text-decoration: none;
-    width: 50px;
-    background: #71c802;
-    border: 1px solid #71c802;
-    color: #fff;
-    margin-top: 20px !important;
-    border-radius: 25px;
-    width: 100px;
-    
-}
+padding: 10px 20px;
+text-decoration: none;
+width: 50px;
+background: #71c802;
+border: 1px solid #71c802;
+color: #fff;
+margin-top: 20px !important;
+border-radius: 25px;
+width: 100px;
 
+}
+.btn-agro-home{
+padding: 10px 20px;
+text-decoration: none;
+width: 50px;
+background: #71c802;
+border: 1px solid #71c802;
+color: #fff;
+margin-top: 20px !important;
+border-radius: 25px;
+width: fit-content;
+margin:0 8px;
+}
+.btn-agro-home:hover{
+background: #fff;
+border: 2px solid #71c802;
+color:#71c802
+}
+.btn-agro-home:hover svg path{
+fill:#71c802 !important;
+}
+.implements form button{
+position: absolute;
+right: 34px;
+border-radius: 25px;
+top: 5px;
+background: #71c802;
+border: 1px solid #71c802;
+}
+.implements form button:hover{
+background: #fff;
+border: 2px solid #71c802;
+}
+.implements form button:hover svg{
+    fill: #71c802;
+}
+.implements form input{
+padding: 0.75rem 0.75rem;border-radius: 25px;
+}
+.implements form{position: relative;margin-bottom: 40px;}
+.implements form svg{fill:#fff}
 /* implements-section */
 .implements-section{padding: 70px 0;}
 .implements-section img{height: 215px;}
@@ -48,3 +88,24 @@ header .navbar .navbar-brand h6{font-size: 28px;}
 .details{padding: 70px 0}
 .details img{width: 100%;}
 .details h5{color:#71c802;font-weight: 600;}
+
+
+
+.search_bar form button{
+    position: absolute;
+    right: 34px;
+    border-radius: 25px;
+    top: 5px;
+    background: #71c802;
+    border: 1px solid #71c802;
+    }
+    .search_bar form button:hover{
+    background: #fff;
+    border: 2px solid #71c802;
+    }
+    .search_bar form button:hover svg{
+        fill: #71c802;
+    }
+    .search_bar form input{
+    padding: 0.75rem 0.75rem;border-radius: 25px;
+    }

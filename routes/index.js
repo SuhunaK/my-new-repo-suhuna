@@ -34,4 +34,18 @@ router.get('/implements/:name/:implement_name',async(req,res)=>{
  specific_implement:get_implements_name
     })
 })
+router.get('/search',async(req,res)=>{
+    let search_term=req.query.term;
+    const get_implements = await implements.find({})
+    let array=[];
+   for(let i=0;i<get_implements.length;i++){
+    if((get_implements[i].name.toLowerCase()).includes(search_term.toLowerCase()) || (get_implements[i].function.toLowerCase()).includes(search_term.toLowerCase()) || (get_implements[i].General_Information.toLowerCase()).includes(search_term.toLowerCase())){
+        array.push(get_implements[i])
+    }
+   }
+   res.render('search',{
+    search_result:array,
+    search_term:search_term
+   })
+})
 module.exports = router;
