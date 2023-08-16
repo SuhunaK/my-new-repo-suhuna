@@ -19,7 +19,7 @@ app.engine('hbs',hbs.__express)
 //mongodb connection
 // mongodb://localhost:27017
 // mongodb+srv://sksugu103:K63YQ4TUp1G1PYEH@cluster0.fmrgxl8.mongodb.net/agro_implements
-mongoose.connect('mongodb://127.0.0.1/agro_implements', { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+mongoose.connect('mongodb+srv://sksugu103:K63YQ4TUp1G1PYEH@cluster0.fmrgxl8.mongodb.net/agro_implements', { useNewUrlParser: true, useUnifiedTopology: true }, () => {
   console.log('DB Connected!!!')
 })
 //public directory
