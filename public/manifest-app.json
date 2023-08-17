@@ -9,15 +9,15 @@
     "description": "Agro Implements",
     "icons": [
     {
-    "src": "images/app-logo.jpg'",
+    "src": "images/app-logo-png.png",
     "sizes": "192x192",
-    "type": "image/jpg",
+    "type": "image/png",
     "purpose": "any maskable"
     },
     {
-    "src": "images/app-logo.jpg'",
+    "src": "images/app-logo-png.png'",
     "sizes": "512x512",
-    "type": "image/jpg"
+    "type": "image/png"
     }
     ]
     }
