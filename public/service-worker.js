@@ -1,4 +1,4 @@
-const staticCacheName = 'tam-v1';
+const staticCacheName = 'agro-implements';
 
 
 const filesToCache = [
