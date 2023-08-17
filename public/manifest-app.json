@@ -1,11 +1,11 @@
 {
-    "name": "Agro Implements",
-    "short_name": "Agro Implements",
-    "start_url": "https://pkvd-agro.onrender.com/",
+    "name": "PKVD - Agro Implements",
+    "short_name": "PKVD",
+    "start_url": "https://pkvd-agro.onrender.com/login",
     "display": "standalone",
     "background_color": "rgb(240,240,240)",
     "theme_color": "#1b1b1b",
-    "scope": "https://pkvd-agro.onrender.com/",
+    "scope": "https://pkvd-agro.onrender.com/login",
     "description": "Agro Implements",
     "icons": [
     {

@@ -118,3 +118,27 @@ padding: 0.75rem 0.75rem;border-radius: 25px;
         margin-top: 20px !important;
         border-radius: 25px;
         width: fit-content;position:absolute;right:10px}
+
+        .app-install-btn{display: none;}
+        .form-box{border-radius: 30px;max-width: 480px;width:100%;padding:35px 50px;}
+        .form-box h3{font-weight: 700;}
+
+    .btn-primary{
+        border: 1px solid #71c802;
+    background: #71c802;
+    }
+    
+    .btn-primary:hover{
+        border: 1px solid #71c802;
+    background: #fff;
+    color:#71c802
+    }
+    .error-mg{
+        color:red
+    }
+    .go_to_login{
+        color:#71c802
+    }
+    .go_to_register{
+        color:#71c802
+    }
