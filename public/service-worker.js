@@ -31,7 +31,7 @@ this.addEventListener('activate', function(event) {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);  
-  if (url.origin == location.origin && ( event.request.url.indexOf('Diagnostic') > -1 || url == 'https://pkvd-agro.onrender.com/' || url == 'https://pkvd-agro.onrender.com/implements')) {  
+  if (url.origin == location.origin && ( event.request.url.indexOf('Diagnostic') > -1 || url == 'https://pkvd-agro.onrender.com/login' || url == 'https://pkvd-agro.onrender.com/implements')) {  
     event.respondWith(caches.open(staticCacheName).then((cache) => {
       return cache.match(event.request).then((cachedResponse) => {
         const fetchedResponse = fetch(event.request).then((networkResponse) => {
